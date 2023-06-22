@@ -37,7 +37,7 @@ export class AuthController {
       }
     }
 
-    return this.authService.signup(body,userType);
+    return this.authService.signup(body, userType);
   }
 
   @Post('/signin')
