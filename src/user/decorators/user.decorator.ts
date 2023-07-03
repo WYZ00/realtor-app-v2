@@ -1,5 +1,5 @@
 import { createParamDecorator, ExecutionContext } from '@nestjs/common';
-export interface UserType {
+export interface UserInfo {
   name: string;
   id: number;
   iat: number;
